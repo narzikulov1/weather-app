@@ -1,0 +1,160 @@
+html{
+    font-size: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background: #222;
+}
+
+.card{
+    width: 90%;
+    max-width: 23.5rem;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    margin: 5rem auto 0;
+    border-radius: 1rem;
+    padding: 2rem 1.75rem;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 0.5rem 1.25rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+
+    margin-right: 0.8rem;
+    font-size: 0.9rem;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 3rem!important;
+    height: 3rem!important;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 1.5rem;
+}
+
+.weather{
+
+    display: none;
+    text-align: center;
+}
+
+.error{
+    text-align: left;
+    margin-left: 0.5rem;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    display: none;
+}
+
+.weather-icon{
+    width: 8.5rem;
+    margin-top: 1.5rem;   
+}
+
+.weather h1{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 2.25rem;
+    font-weight: 400;
+    margin-top: -0.5rem;
+}
+
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin-top: 2.5rem;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 2.5rem;
+    margin-right: 0.5rem;
+}
+
+.humidity, .wind{
+    font-size: 1rem;
+    margin-top: -0.3rem;
+}
+
+@media (max-width: 1400px) {
+    html{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1200px) {
+    html{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    html{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    html{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    html{
+        font-size: 10px;
+    }
+
+    .search input{
+        width: 80%;
+    }
+}
+
+@media (max-width: 400px) {
+    html{
+        font-size: 8px;
+    }
+
+    
+}
+
+@media (max-width: 200px) {
+    html{
+        font-size: 6px;
+    }
+}
